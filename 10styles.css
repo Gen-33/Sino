@@ -386,7 +386,21 @@ body {
 .colors-item:hover { box-shadow: 0 0 0 4px rgba(0,202,191,0.6); }
 .colors-item.active { box-shadow: 0 0 0 2px #00CABF, 0 0 0 4px white; }
 
-.col {
+
+.utp {
+    position: absolute;
+	bottom: 30%;
+    width: 474px;
+    min-height: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    text-align: center;
+}
+
+.col { 
     position: relative;
     max-width: 237px;
     width: 100%;
@@ -398,25 +412,13 @@ body {
     text-align: center;
     font-size: 12px;
     height: 34px;
-    gap: 6px;
+    gap: 0.8px;
     transition: transform 0.25s cubic-bezier(0.2,0.9,0.4,1.1);
     transform-origin: center center;
 }
 .col-item:hover { transform: scale(1.12); cursor: pointer; }
 .col-item svg circle { transition: fill 0.25s ease; }
 .col-item:hover svg circle { fill: #00CABF; }
-
-.utp {
-    position: relative;
-    width: 474px;
-    min-height: 140px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: space-between;
-    z-index: 2;
-    text-align: center;
-}
 
 /* ========== ОСНОВНЫЕ ПРАВКИ ДЛЯ КНОПОК ========== */
 .but3area {
@@ -428,7 +430,7 @@ body {
     gap: 12px;
     width: 100%;
     z-index: 2;
-    bottom: 0px;
+    bottom: 4%;
     align-items: center;       /* центрируем кнопки по горизонтали */
 }
 .but3area > div {
@@ -438,7 +440,7 @@ body {
 }
 .Btn3 {
     width: 100%;
-    max-width: 300px;          /* все кнопки одинаковой максимальной ширины */
+    max-width: 440px;          /* все кнопки одинаковой максимальной ширины */
     min-width: 240px;          /* чтобы они не были слишком узкими на маленьких экранах */
     height: 50px;
     background: #00CABF;
