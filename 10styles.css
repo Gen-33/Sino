@@ -68,6 +68,7 @@ min-height: 33px;
 max-height: 66px;
 }
 .container2 {
+	display: flex;
     max-width: 1170px;
     width: 100%;
 min-height: 33px;
