@@ -448,7 +448,7 @@ margin-right:0px;
 	text-align:center;
 }
 .but3area {
-    position: relative;
+    position: absolute;
     /*bottom: 40px;*/
     left: 0;
     right: 0;
@@ -462,7 +462,7 @@ margin-right:0px;
 	bottom:0px;
 	
 	
-	margin-top: auto;
+	/*margin-top: auto;*/
 }
 
 .Btn3 {
