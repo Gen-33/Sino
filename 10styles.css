@@ -246,6 +246,9 @@ body {
     max-width: 560px;
     width: 100%;
     min-height: 885px;
+	max-height: 2000px;
+	
+	
     border-radius: 12px;
     border: 1px solid rgba(0,0,0,0.07);
     background-color: #F3F3F3;
@@ -364,7 +367,8 @@ body {
 }
 .car-card-image:hover { transform: translateY(-6px); cursor: pointer; }
 .colors {
-    position: relative;
+    position: absolute;
+	top: 380px;
     left: 50%;
     transform: translateX(-50%);
     min-height: 50px;
@@ -377,6 +381,7 @@ body {
     z-index: 2;
 }
 .colors-item {
+
     width: 28px;
     height: 28px;
     border-radius: 50%;
@@ -388,7 +393,7 @@ body {
 
 
 .utp {
-    position: absolute;
+    position: relative;
 	bottom: 30%;
     width: 474px;
     min-height: 160px;
@@ -398,6 +403,8 @@ body {
     justify-content: space-between;
     z-index: 2;
     text-align: center;
+	
+		margin-top: 100px;
 }
 
 .col { 
