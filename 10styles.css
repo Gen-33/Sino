@@ -65,7 +65,7 @@ body {
     max-width: 1920px;
     width: 100%;
 min-height: 33px;
-max-height: 66px;
+max-height: 132px;
 }
 .container2 {
 	display: flex;
@@ -303,6 +303,8 @@ max-height: 132px;
 }
 .Frame2 { 
     position: absolute;
+	
+display:flex;
     max-width: 440px;
     min-width: 400px;
     width: 100%;
@@ -321,18 +323,29 @@ max-height: 132px;
 font-size: 27px; color: black; }
 .pb { font-size: 20px; color: black; }
 .pc { font-size: 20px; color: #00CABF; }
-.pbutton {
+.pbutton { 
+
+display:flex;
+float:right;
+
     font-size: 14px;
     font-family: Bold3;
     border: none;
     transition: box-shadow 0.2s ease;
     cursor: pointer;
+	/* background-color:blue; */
 }
 .gen-pbutton {
     transition: transform 0.25s ease;
     display: flex; /* inline block before 28-05-2026 */
 	
     cursor: pointer;
+	
+	
+display:flex;
+float:right;
+
+/* background-color:red; */
 }
 .gen-pbutton:hover { transform: scale(1.1); cursor: pointer; }
 .car-card-image {
