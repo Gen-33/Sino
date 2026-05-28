@@ -65,6 +65,7 @@ body {
     max-width: 1920px;
     width: 100%;
    min-height: 33px;
+   max-height: 66px;
 }
 .container2 {
     max-width: 1170px;
