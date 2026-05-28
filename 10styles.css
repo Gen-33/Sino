@@ -1,4 +1,4 @@
-﻿* { margin: 0; padding: 0; box-sizing: border-box; }   
+* { margin: 0; padding: 0; box-sizing: border-box; }   
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tilda+Sans:wght@400;700&display=swap');
 
@@ -437,7 +437,7 @@ body {
     gap: 12px;
     width: 100%;
     z-index: 2;
-    bottom: 4%;
+    bottom: 6%;
     align-items: center;       /* центрируем кнопки по горизонтали */
 }
 .but3area > div {
